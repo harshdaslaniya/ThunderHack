@@ -1,0 +1,89 @@
+.mycard{
+ color: #fff559;
+ background-color: #404c96;
+
+}
+.btn{
+  background-color: #fff559;
+  color: black;
+}
+body{
+     background-color: #5a6bd8;
+}
+
+
+/*===================================================== footer-css================================================ */
+.footer{
+  padding: 80px 60px;
+  background: black;
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.colm{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+}
+.rowm{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 
+                           minmax(185px, 1fr));
+    grid-gap: 20px;
+     
+    @media (max-width: 1000px) {
+      grid-template-columns: repeat(auto-fill, 
+                             minmax(200px, 1fr));
+    } 
+}
+.footerLink{
+
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+   
+}
+a:hover {
+    color: rgb(7, 190, 144);
+    transition: 200ms ease-in;
+}
+.heading{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;    
+}
+:root {
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+  }
+
+  .back{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    background-color: #fff559;
+    border: 2px solid #fff559;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+  }
+
+
+ 
